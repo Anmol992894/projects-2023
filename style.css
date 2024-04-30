@@ -1,0 +1,85 @@
+.bodi{
+    background-image: url("smoke-background-texture-white-abstract-design.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.texe{
+    color:#000;
+    font-family:neue-haas-grotesk-text, sans-serif;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+}
+.logo{
+    position: relative;
+    left: 44%;
+    top: 45px;
+    width: 70px;
+    height: 60px;
+}
+.detail{
+    font-family: Varela, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.work-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 150px;
+}
+.about-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 150px;
+
+}
+.contact-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    /* padding-left: 45%; */
+}
+.main{
+    width: 1200px;
+}
+.header-sides-a{
+    padding-top: 40px;
+    padding-left: 95px;
+    transform: rotate(-90deg);
+}
+
+.header-sides-w{
+    bottom: 10px;
+    transform: rotate(90deg);
+}
+.cont{
+    /* text-align: center; */
+    padding-top: 50px;
+    padding-left: 43%;
+}
+
+@media (min-width:375) and (max-width:430) {
+    .texe{
+        color:#000;
+        font-family:neue-haas-grotesk-text, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+    }   
+    .detail{
+        font-family: Varela, sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+    
+    }
+}

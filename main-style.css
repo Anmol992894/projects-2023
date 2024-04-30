@@ -1,0 +1,76 @@
+.about-link{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    border-bottom: 4px solid #000;
+    transition: font-size 3s;
+    transform: rotate(-90deg);
+}
+#plus{
+    display: none;
+}
+.about-link:hover{
+    font-size: 35px;
+    border-bottom: 4px solid  yellow;
+}
+.work-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 4px solid #000;
+    transition: font-size 3s;
+    transform: rotate(90deg);
+}
+.work-link:hover{
+    font-size: 35px;
+    border-bottom: 4px solid blue;
+}
+.git-img{
+    width: 50px;
+    height: 50px;
+    transition:width 2s, height 2s;
+}
+.git-img:hover{
+    width: 60px;
+    height: 60px;
+}
+.link-img{
+    width: 50px;
+    height: 50px;
+    transition:width 2s, height 2s;
+}
+.link-img:hover{
+    width: 60px;
+    height: 60px;
+}
+.contact-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;   
+    border-bottom: 4px solid #000;
+    transition: font-size 3s;
+}
+.contact-link:hover{
+    font-size: 35px;
+    border-bottom: 4px solid red;
+}
+.detail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width:280px) and (max-width:767px){
+    #big{
+        display: none;
+    }
+    #plus{
+        display:block;
+    }
+}
